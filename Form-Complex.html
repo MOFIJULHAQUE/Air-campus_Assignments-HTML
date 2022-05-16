@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex form Assignment</title>
+    
+</head>
+<body>
+      <form>
+          <fieldset>  
+            <legend><h3>Sign-Up-Form</h3></legend>
+          <label for="Name">Name*</label><br> 
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name"></input><br><br>
+          <label for="Email">Email Id*</label> <br>
+          <input type="email" placeholder="example@gmail.com"><br><br>
+          <label for="Password">Password*</label> <br>
+          <input type="password" placeholder="Password" maxlength="8"><br><br>
+          <label for="password">Confirm Password*</label> <br>
+          <input type="password" placeholder="Confirm Password" maxlength="8"><br><br>
+          <label for="dateofbirth">Date of Birth*</label> <br>
+          <input type="date" placeholder="dd/mm/yyyy"><br><br>
+          <label for="Gender">Gender*</label> <br>
+          <input type="radio" value="Male" name="Gender">Male</input>
+          <input type="radio" value="Female" name="Gender">Female</input>
+          <input type="radio"value="Others" name="Gender">Others</input><br><br>
+          <label for="Language">Language Known*</label> <br>
+          <input type="checkbox" value="Python" name="Language Known">Python</input>
+          <input type="checkbox" value="Java" name="Language Known" checked>Java</input>
+          <input type="checkbox"value="C++" name="Language Known">C++</input><br><br>
+          <label for="Experience">Experience</label> <br>
+          <select name="Experience" id="id1">
+              <datalist>
+                <option value="Beginer">Beginer</option>
+                <option value="Intermediate" selected>Intermediate</option>
+                <option value="Pro">Pro</option>
+              </datalist>  
+          </select><br><br>
+           <p><label for="Tell us about">Tell us about yourself*</label> <br></p>
+          <textarea >About yourself </textarea><br>
+          <input type="checkbox">I accept the <a href="https://teamaircampus2394.ongraphy.com/s/courses/627369e30cf25e12c4bf4321/take">T&C</a></input><br>
+          <button type="submit" value="Submit" >Submit</button><br>
+          </fieldset>
+
+      </form>
+</body>
+</html>
