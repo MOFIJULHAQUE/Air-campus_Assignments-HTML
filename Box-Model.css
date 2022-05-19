@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+*{
+    text-transform: capitalize;
+  
+}
+main{
+    text-align:center;
+    height: 100%;
+    width: 100%;
+  
+}
+h1{
+    color:white;
+    background-color: red;
+    padding:30px 0px;
+    font-size: 200%;
+    font-weight: bold;
+    
+}
+main img{
+    height: 250px;
+    width:250px;
+    border-radius: 60%;
+    padding:30px 50px;
+}
+h3{
+    
+    padding:10px;
+    margin:20px 40%;
+    border:1px solid rgba(0, 0, 0, 0.9) ;
+}
+h3:hover{
+    transition: 0.3s;
+    color:white;
+    background-color:aqua;
+
+}
+.watch{
+    border-color: black;
+    background-color:rgb(213, 90, 125);
+    color:rgb(7, 0, 0);
+    padding:10px 100px;
+    margin:30px 50px;
+
+}
+.watch:hover{
+    background-color:rgb(125, 190, 190);
+    transition: 0.5s;
+    box-shadow: -4px 5px 15px rgb(23, 4, 4);
+    
+}
+.Add{
+   
+    padding:10px 20px;
+    margin:0px 42px;
+    border:1px solid rgba(27, 18, 200, 0.9);
+    background-color:transparent;
+}
+.Add:hover{
+    transform-style: preserve-3d;
+    color:rgb(2, 0, 0);
+    background-color:rgb(236, 231, 231);
+    box-shadow: -4px 5px 15px rgb(53, 7, 7);
+    transition: 0.5s;
+}
+footer {
+    color:red;
+    text-decoration: none;
+    margin: 30px 0px 0px ;
+    width: 100%;
+   
+    background-color: rgb(191, 105, 105);
+    padding:40px 0px;
+    
+   
+}
+footer a {
+    text-underline-offset: 2px;
+    margin: 30px;
+    font-weight: bold;
+}
+footer a:hover{
+    border-bottom: 1px solid rgb(188, 147, 147);
+    transition: 0.3s ease;
+    color:white;
+}
