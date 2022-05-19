@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+*{
+    margin:0%;
+    padding:0%;
+    text-transform: capitalize;
+}
+body{
+    width: 100%;
+    height:auto;
+
+}
+header{
+    background-color:#08238a;
+    color: white;
+    text-align: center;
+    padding:20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.class1 img{
+    margin: 40px;
+    height: 150px;
+    width:150px;
+    margin: 1px 30px 40px;
+}
+.class2{
+    justify-content: center;
+    display: flex;
+}
+
+.class3{
+    justify-content: center;
+    display: flex;
+}
+.class4{
+    justify-content: center;
+    display: flex;
+}
+.first{
+    border: 15px solid lightgreen;
+}
+.second{
+    border: 15px dashed rgb(155, 25, 25);
+}
+.third{
+    border: 15px dotted rgb(21, 8, 94);
+}
+.fourth{
+    border: 15px  inset rgba(4, 77, 37, 0.732);
+}
+.fifth{
+    border: 15px ridge rgb(206, 9, 42);
+}
+.sixth{
+    border: 15px double rgb(21, 8, 94);
+}
+.seventh{
+    border: 15px  rgb(21, 8, 94);
+}
+.content{
+    color:white;
+    background-color:mediumseagreen;
+    padding: 20px;
+    height: 200px;
+    border-top: 10px solid red;
+    border-left: 10px solid purple;
+    border-right: 10px solid purple;
+    border-bottom: 10px solid blue;
+    margin-bottom: 28px;
+    
+}
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+footer{
+    text-underline-offset: 2px;
+    margin: 0px;
+    background-color:#31828e;
+    font-weight: bold;
+    text-align: center;
+    padding:20px 0px;
+    margin-bottom: 20px;
+    width:100%;
+}
+footer a{
+    
+    color: white;
+    margin: 40px;
+    height: 150px;
+    width:150px;
+    margin: 1px 30px 40px;  
+    font-weight: bolder;
+}
+footer a:hover{
+    border-bottom: 1px  #1a7482;
+    transition: 0s ease;
+    color:rgb(9, 35, 88);
+}
